@@ -20,7 +20,13 @@ class Tareas{
     crearTarea (descripcion=""){
         const tarea= new Tarea(descripcion);
         this._listado[tarea.id]=tarea;
-    }
+    };
+
+    cargarTarea(tareas=[]){
+        tareas.forEach(tarea=>{
+            this._listado[tarea.id]=tarea
+        })
+    };
 }
 
 
