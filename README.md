@@ -1,7 +1,7 @@
 # Listado-tareas-node
 Una app de consola que sirve para agregar, eliminar y listar las tareas del usuario. Esta app fue construida con node utilizando librerias de inquirer, colors y uuid
 
-Despliegue: usando la consola, se inicia con el comando node app.js (Estar en la carpeta principal) . La version de node utiliza es la version v16.14.0 
+Despliegue: Usando la consola, se inicia con el comando node app.js (estar en la carpeta principal) . La version de node utilizada es la version v16.14.0 
 
 Menu :
 Se despliegaran las siguientes opciones al momento de iniciar la app
